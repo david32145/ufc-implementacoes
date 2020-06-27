@@ -1,0 +1,12 @@
+jose,matheus,andre,ana
+ana,maria
+maria,matheus
+amaral,matheus
+amarildo,antonia
+amanda,pepeu,mario
+mario,pepeu
+pepeu,emy
+emy,joca,maria
+andre,joca
+jaisom,ananda, malefa
+antonia,carlos
