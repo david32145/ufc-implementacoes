@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.app img.logo {
+  margin: 0 auto;
+  height: 150px;
+}
+
+.app .service-groups {
+  display: flex;
+  align-items: flex-start;
+}
+
+.app .service-groups .processing-services,
+.app .service-groups .storage-services {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.app .service-groups label {
+  width: 90px;
+}
+
+.app .actions {
+  margin-left: 130px;
+  margin-top: 15px;
+}
+
+.app .actions button {
+  background-color: #EEE;
+  color: #000;
+  height: 30px;
+  border-radius: 4px;
+  min-width: 150px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.app .actions button:hover{
+  background-color: #DDD; 
+}
+
+.input-group label {
+  display: inline-block;
+  width: 90px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 250px;
+  border: 2px solid #000;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.checkbox-group {
+  margin-bottom: 15px;
+}
+
+table.table {
+  border-collapse: collapse;
+  min-width: 700px;
+  max-width: 850px;
+  margin-top: 20px;
+}
+
+table.table, th, td {
+  border: 1px solid black;
+}
+
+table.table td{
+  padding: 10px;
+  text-align: center;
+}
